@@ -15,7 +15,7 @@ public class CustomerController {
     @Autowired
     CustomerRepository customerRepository;
     //create a customer
-    @PostMapping(value"/createnewcustomer",method=RequestMethod.GET)
+    @PostMapping(value="/createnewcustomer",method=RequestMethod.GET)
     public  String createNewCustomer(@RequestBody Customer customer){
         customerRepository.save(customer);
         return "customer created";
