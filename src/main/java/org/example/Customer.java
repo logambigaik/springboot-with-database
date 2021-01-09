@@ -9,8 +9,8 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "name='" + name + '\'' +
-                ", id='" + id + '\'' +
+                "id='" + id + '\'' +            
+                ", name='" + name + '\'' +
                 ", country_of_birth='" + country_of_birth + '\'' +
                 ", country_of_residence='" + country_of_residence + '\'' +
                 ", segment='" + segment + '\'' +
