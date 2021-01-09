@@ -26,9 +26,9 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String name, Long id, String country_of_birth, String country_of_residence, String segment) {
-        this.name = name;
+    public Customer(Long id, String name, String country_of_birth, String country_of_residence, String segment) {
         this.id = id;
+        this.name = name;
         this.country_of_birth = country_of_birth;
         this.country_of_residence = country_of_residence;
         this.segment = segment;
