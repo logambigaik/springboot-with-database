@@ -17,6 +17,8 @@
     mvn clean install
 # Run Springboot application
     java -jar target/springboot-with-database-1.0-SNAPSHOT.jar
+# Note: 
+  Open port number 8888 with in security group
 # Create new customer using "/createnewcustomer" API
   Open Post-man app and git URL with API as shown in below
   
