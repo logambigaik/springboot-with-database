@@ -9,7 +9,7 @@
 # Install Maven
     yum install maven -y
 # SetUP MYSQL in EC2-Instance
-    [Mysql-Setup](https://github.com/Naresh240/Mysql-Setup/blob/main/README.md)
+  [Mysql-Setup](https://github.com/Naresh240/Mysql-Setup/blob/main/README.md)
 # Clone the code to local machine
     git clone https://github.com/Naresh240/springboot-with-database.git
 # Build Artifact using maven command
