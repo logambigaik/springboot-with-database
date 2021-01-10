@@ -15,8 +15,8 @@ public class CustomerController {
     @Autowired
     CustomerRepository customerRepository;
     //create a customer
-    @PostMapping("/createnewcustomer")
-    //@RequestMapping(value = "/createnewcustomer", method = RequestMethod.GET)
+    //@PostMapping("/createnewcustomer")
+    @RequestMapping(value = "/createnewcustomer", method = RequestMethod.POST)
     public  String createNewCustomer(@RequestBody Customer customer){
         customerRepository.save(customer);
         return "customer created";
@@ -24,8 +24,8 @@ public class CustomerController {
 
 
     //list all customers
-    @GetMapping("/listallcustomers")
-    //@RequestMapping(value = "/listall", method = RequestMethod.GET)
+    //@GetMapping("/listallcustomers")
+    @RequestMapping(value = "/listall", method = RequestMethod.GET)
     public List<Customer> getAllCustomers(){
         List<Customer> customerList = new LinkedList<>();
 
